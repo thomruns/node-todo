@@ -12,6 +12,7 @@ This app uses the full MEAN stack in its development. The MongoDB sample databas
 ## Directory Module structure
 
 **controllers** contains the basic api functionality of the app
-**models** contains the data schema
+
+**models** contains the JSON data schema
 
 
