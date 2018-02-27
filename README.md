@@ -9,4 +9,9 @@ A simple to-do list app based on a Udemy nodejs course by Anthony Alicea. The re
 
 This app uses the full MEAN stack in its development. The MongoDB sample database is hosted on mLab. Access to that db is not available within this repository, but rather only on the local development machine.
 
+## Directory Module structure
+
+**controllers** contains the basic api functionality of the app
+**models** contains the data schema
+
 
