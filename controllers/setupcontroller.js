@@ -1,9 +1,12 @@
 var Todos = require('../models/todoModel'); //this module adds sample seed data to a new database
 
+// what this module will export
+// dummy data at a particular url endpoint to send to database
+
 module.exports = function(app) {
 
     app.get('/api/setupTodos' , function(req, res) {
-        // seed database
+        // seed database; create an array with 3 sample records based on the model schema
         var starterTodos = [
             {
                 username: 'test',
