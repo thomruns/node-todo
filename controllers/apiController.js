@@ -42,7 +42,7 @@ module.exports = function(app) {
         } 
         else {
             var newTodo = Todos({
-                username: 'testy',
+                username: 'test',
                 todo: req.body.todo,
                 isDone: req.body.isDone,
                 hasAttachment: req.body.hasAttachment
@@ -54,7 +54,7 @@ module.exports = function(app) {
         }
 
     });
-
+    // delete function, expecting only the id of the document to be deleted
     app.delete('/api/todo', function(req, res) {
         Todos.findByIdAndRemove(req.body.id, function(err) {
             if(err) throw err;
