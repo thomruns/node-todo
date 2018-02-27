@@ -1,0 +1,11 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "simple to-do app based on Udemy nodejs course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
